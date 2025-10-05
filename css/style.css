@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.counter {
+    font-size: 36px;
+}
+button {
+    background-color: mediumpurple;
+    width: 100px;
+    padding: 10px 5px;
+    border-radius: 12px;
+    cursor: pointer;
+    border: 1px;
+    transition: all 0.2s ease-in-out;
+}
+.block {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    border: 3px solid black;
+}
+.input {
+    background: #ffffff;
+    width: 200px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
